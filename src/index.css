@@ -1,0 +1,82 @@
+body {
+  height: 200px;
+  background-color: #cccccc;
+  background-image: radial-gradient(black, white, red, yellow, green, blue, pink, orange, aqua );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.app {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px 23px rgba(38, 80, 34, 0.2);
+  width: 300px;
+}
+
+.app:hover{
+  box-shadow: 4px 4px 8px 33px rgba(73, 34, 80, 0.2);
+
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #ea8900;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6f89c4;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.websites ul {
+  list-style: none;
+  padding: 0;
+}
+
+.websites li {
+  margin-bottom: 1rem;
+}
+
+.websites button {
+  background-color: #37ea1f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.websites button:hover {
+  background-color: #b30000;
+}
